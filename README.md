@@ -89,3 +89,7 @@ alternatives.
 [include]: http://ruby-doc.org/core/Array.html#method-i-include-3F
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/cartoon-collections'>Cartoon Collections Lab</a> on Learn.co and start learning to code for free.</p>
+
+def greet_characters(array)
+  array.each {|i| p "Hello #{i}!"}
+  end
